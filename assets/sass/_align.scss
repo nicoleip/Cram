@@ -1,0 +1,37 @@
+.float_left {
+    float : left;
+}
+
+.float_right {
+    float: right;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block{
+    display: block;
+}
+
+
+.font{
+    font-family: Chalk;
+    font-size:1.5em;
+    color: $color-white;
+}
+
+.height-button {
+    height: 55px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+nav .active {  
+    background: #000000;
+    color: $color-white;
+   	border-radius: 40px;
+    border: 1px solid $color-white;   
+  }

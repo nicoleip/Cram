@@ -1,0 +1,109 @@
+#registration-form{
+    margin-top:20x;
+    border: none;
+}
+
+.form {
+    margin: 25px 50px;
+    padding: 25px 50px 25px 25px;
+    position: relative;
+    width: 450px;
+    text-align: center;
+    height: 300px;
+
+}
+
+
+.form h1 {
+    color: $color-white;
+    font-size:40px;
+    letter-spacing: -0.05em;
+    line-height: 20px;
+    margin: 10px 0 30px;
+}
+
+
+.form form { 
+	margin: 0 20px; position: relative
+ }
+ 
+.form form input[type="text"],
+.form form input[type="email"],
+.form form input[type="password"],
+.form form textarea,
+.form form select{
+    border-radius: 10px;
+    box-shadow: 0 1px 0 $color-white, 0 0 5px rgba(0,0,0,0.08);   
+    background: #000000;
+    border: 1px solid $color-white;
+    margin: 0 10px 10px;
+    padding: 15px 10px 15px 40px;
+    width: 80%;
+    color: $color-white;
+    font-family:Helvetica;
+    font-size: 15px;
+}
+
+.form form input[type="text"]:focus,
+.form form input[type="email"]:focus,
+.form form input[type="password"]:focus,
+.form textarea:focus{
+    box-shadow: 0 0 2px #ed1c24 inset;
+    border: 1px solid #ed1c24;
+    outline: none;
+    font-family: Helvetica;
+    background-color: #000000;
+    color: $color-white;
+}
+
+#username { background-position: 10px 10px !important }
+#password { background-position: 10px -53px !important }
+#email{background-position: 10px 10px !important }
+.form form input[type="submit"],
+.form form button,{
+	font-family: Chalk;
+	font-size: 20px;
+    background: #000000;
+    border-radius: 10px;
+    box-shadow: 0 1px 0 $color-white;
+    border: 1px solid $color-white;
+    color: $color-white;
+    cursor: pointer;
+    height: 40px;
+    margin: 20px 35px 35px 15px;
+    position: relative;
+    width: 150px;
+}
+
+ .form form input[type="submit"]:hover,
+ .form form button:hover,
+ #saveResults:hover{
+    background: $color-red;
+}
+
+.form form div a {
+    color: $color-white;
+    font-family: Chalk;
+    font-size: 40px;
+    margin: 30px 15px 0 0;
+    padding: 20px;
+}
+
+#apple{
+	margin-left:100px;
+	
+	height:256px;
+	background-image: url('../icons/apple.png'); 
+	background-repeat: no-repeat;
+}
+
+#welcome p{
+	width:40%;
+	text-align: justify;
+	margin-left:80px;
+	font-family: Chalk;
+	font-size: 28px;
+	color: $color-white;
+}
+
+

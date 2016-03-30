@@ -1,0 +1,182 @@
+article {
+   
+    width: auto;
+    height: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#home-article, #browse-article, #deck-article, #card-article, #login-article, #signup-article{
+ background:  url("../images/chalk.png");
+ }
+ 
+ #deck-preview{
+ color: white;
+ }
+ 
+ #play-article, #account-article{
+ background:  url("../images/paper.jpeg");
+ border-style: dotted;
+ }
+ 
+ #account-body, #browse-body, #play-body{
+ background:  url("../images/profilepic.jpg");
+ }
+
+#CategoriesHeight {
+    height: 600px;
+}
+
+#home-body
+{
+background:  url("../images/bk.jpg");
+}
+
+#deck-body,#card-body
+{
+background:  url("../images/decks.jpg");
+}
+
+#categories {
+    max-width: 700px;
+    margin: 20px 0 20px 20px;
+    border-radius: 10px;
+    border-right: 2px dotted  #88878C;
+}
+
+#CategoriesHeading {
+    position: relative;
+    font-size:40px;
+    top:20px;
+    left: 250px;
+    color: $color-white;
+}
+
+#categories ul {
+    margin: 10px 10px;
+}
+
+#categories li {     
+    padding: 2px 15px;
+}
+
+#categories li a{    
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+
+#categories li .math {
+    background:url('../icons/math.png') no-repeat; 
+    padding-left: 60px; 
+}
+
+#categories li .science {
+     background:url('../icons/science.png') no-repeat; 
+    padding-left: 60px;
+}
+
+#categories li .biology{
+    background:url('../icons/biology.png') no-repeat; 
+    padding-left: 60px;
+}
+
+#categories li .medicine{
+     background:url('../icons/medicine.png') no-repeat; 
+    padding-left: 60px;
+}
+
+#categories li .technologies {
+     background:url('../icons/technologies.png') no-repeat; 
+    padding-left: 60px;
+}
+
+#categories li .culture{
+     background:url('../icons/culture.png') no-repeat; 
+    padding-left: 60px;
+}
+
+#categories li .geography{
+     background:url('../icons/geography.png') no-repeat; 
+    padding-left: 60px;
+}
+
+#categories li .history{
+     background:url('../icons/history.png') no-repeat; 
+    padding-left: 60px;
+}
+
+#categories li .languages{
+      background:url('../icons/languages.png') no-repeat; 
+    padding-left: 60px;
+
+}
+
+#categories li .arts{
+      background:url('../icons/arts.png') no-repeat; 
+    padding-left: 60px;
+}
+
+#categories li .environment{
+      background:url('../icons/environment.png') no-repeat; 
+    padding-left: 60px;
+}
+
+#categories li .other{
+      background:url('../icons/other.png') no-repeat; 
+    padding-left: 60px;
+}
+
+#first {
+    width: 290px;
+}
+
+
+#categories a {
+    text-decoration: none;
+    font-family: Chalk;
+    font-size: 2em;
+    color: $color-white;
+}
+
+#categories a:hover {
+    color: #C94B4B;
+    text-shadow: 1px 1px black;
+    cursor: pointer;
+}
+
+#create-cards{    
+    margin-right: 60px;
+}
+
+#create-cards-image{
+    width: 256px;
+    height: 256px;
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+
+#create-cards input[type="submit"]:hover{
+    background: $color-red;
+}
+
+#create-cards input[type="submit"]{
+   	background-image: url("../images/header.png");
+    border-radius: 40px;
+    box-shadow: 0 1px 0 #000000;
+    border: 1px solid #000000;
+    color: #eeddaa;
+    cursor: pointer;
+    height: 55px;
+    margin-left: 50px;
+	font-family: Chalk;
+    font-size: 1.5em;
+    color: $color-white;
+    width: 220px;
+}
+
+#create-cards h2{
+	font-family: Chalk;
+   	font-size:1.5em;
+    color: $color-white;
+ }
+

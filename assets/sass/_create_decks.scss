@@ -1,0 +1,79 @@
+#createdeck-form{
+    width: 1000px;
+}
+
+#createcards-form{
+    width: 1000px;
+    height: 100%;
+    min-height: 400px;
+}
+
+.title{
+    margin:5px;
+    width: 300px;    
+    font-size:30px;
+    font-family: Chalk;
+    color: $color-white;
+ }
+
+#title{
+    margin:20px;
+    width: 160px;    
+    font-size:20px;
+}
+
+#categories2{
+    width: 210px;
+    margin: 20px;  
+    font-size:20px;
+}
+
+#description{
+    height: 100px;
+    width: 456px;
+    margin-top: 50px;
+    margin-right:10px;   
+}
+
+.front-card-description{	
+    height: 100px;
+    margin: 10px;
+}
+
+.back-card-description{
+    height: 100px;
+    margin: 20px;
+}
+
+#add{
+	position:relative;
+	top: 20px;
+	width:100px;
+	float:right;
+	margin-right:100px;
+}
+
+#button-send{
+	position:relative;
+	top: 40px;
+	width:100px;
+	float:right;
+	margin-right:100px;
+}
+#send-cards{
+	position: relative;
+	top: 0px;
+}	
+			
+
+#add-new-card{
+    margin-right: 80px;
+}
+
+#createcards-container{
+    display:block;
+}
+
+#createdeck-container{
+    display: block;
+}

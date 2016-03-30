@@ -1,0 +1,25 @@
+#index-container, #cards-container, #categories-container {
+    min-height: 600px;
+    height: auto;
+}
+
+#index-container, #cards-container h{
+	margin-left: 50px;
+	font-size: 1.5em;
+	}
+
+#createdeck-container {
+    height: 600px;
+}
+
+#login-container{
+    height: 700px;
+}
+
+#createcards-container{
+	display: block;
+    height: 100%;
+}
+
+
+
